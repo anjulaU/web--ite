@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Css/contact.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact us</title>
+</head>
+<body background="photos/bac.jpg">
+    
+    <header>
+        <h2><a href="#"><img src="photos/logo.png" width="85px" height="85px"></a></h2>
+        <div class="nav"> 
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="search">
+            <form class="example" action="php/action_page.php" style="margin:auto;max-width:300px">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+              </form>
+        </div>
+     </header><br><br>
+
+     <div class="smedia">
+        <br><h2>Contact us </h2>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com"> <img src="photos/twit.png" alt=""></a>
+                </td>
+                <td>
+                  <a href="https://www.facebook.com"> <img src="photos/fb.png" alt=""></a> 
+                </td>
+                <td>
+                  <a href=""> <img src="photos/phone.png" alt=""></a>
+                </td>
+                <td>
+                  <a href="https://www.instagram.com/"> <img src="photos/insta.png" alt=""></a>
+                </td>
+            </tr>
+            <tr>
+                <td>Twiter</td>
+                <td>Facebook</td>
+                <td> &nbsp;Phone</td>
+                <td>Instagram</td>
+            </tr>
+        </table>
+
+        <br><br>
+
+    </div>
+    
+     <div class="all">
+        <div class=" left">
+            <form action="/action_page.php">
+                <p>Add Comment</p><br>
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Name" ><br><br>
+                <label for="pno">Phone Number</label><br>
+                
+                <input type="tel" id="pnum" name="pnum"  pattern="[0-9]{3}-[0-9]{12}-[0-9]{3}" placeholder="Phone number" ><br><br>
+                <lable for="email">Email </lable><br>
+                <input type="text" id="email" name="email" placeholder="Email"><br><br>
+                
+                <label for="mass" aria-placeholder="Masage">Message</label><br>
+                <textarea name="mess" id="mess" cols="50" rows="10"></textarea>
+
+                
+               <br><br> <input type="submit" value="Submit">
+                
+              </form>
+         </div>
+         <br><br>
+         <div class="log">
+            <form action="/action_page.php">
+                <p>Login</p>
+                <h3>You havent a ecount singn up</h3>
+                <label for="fname">Full name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Ful name"><br><br>
+               
+                <lable for="email">Email </lable><br>
+                <input type="text" id="email" name="email" placeholder="Email" ><br><br>
+                <label for="pw">Password</label><br>
+                <input type="password" id="pw" name="pw" placeholder="Password"><br><br>
+                <input type="submit" formaction="/action_page2.php" value="login">
+              </form>
+      
+         </div>
+         <br><br>
+         <div class=" right">
+           <form action="/action_page.php">
+                <p>sign up</p>
+              
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="First name"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" placeholder="Last Name"><br><br>
+                <lable for="email">Email </lable><br>
+                <input type="text" id="email" name="email" placeholder="Email" ><br><br>
+                <label for="phone">Phone number</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Phone Number"><br><br>
+                <label for="pw">Password</label><br>
+                <input type="password" id="pw" name="pw" placeholder="Password"><br><br>
+                <label for="pw2"> Reenter Password</label><br>
+                <input type="password" id="pw2" name="pw2" placeholder="Reenter Password"><br><br>
+                <input type="submit" formaction="/action_page2.php" value="Register">
+              </form>
+    
+         </div>
+     </div>
+    
+     <footer>
+        <h2>Address</h2>
+        <hr  size="1px">
+        <p >No 115/5,<br>Unity Place,<br>Colombo,<br>Sri Lanka</p>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="photos/fb.png" width="50px" height="50px"></a>
+            <a href="https://www.instagram.com/"><img src="photos/insta.png" width="50px" height="50px"></a>
+            <a href="https://twitter.com"><img src="photos/twit.png" width="50px" height="50px"></a>
+        </div>
+        <table>
+            <tr>
+                <th > Hot line</th>
+               
+            </tr>
+            <tr>
+                <td> <img src="photos/phone.png" width="50px" height="50px" ></td>
+                <td align ="center">0114587199</td>
+            </tr>
+            <tr>
+                <td> <img src="photos/phone.png" width="50px" height="50px"></td>
+                <td align ="center">077585247</td>
+            </tr>
+        </table>
+        
+      <div class="AllR"> &copy; All Right Recived <br>SEU/IS/17/ICT/008</div>
+    </footer>
+</body>
+</html>

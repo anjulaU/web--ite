@@ -1,0 +1,173 @@
+body{
+    background-color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body a{
+    text-decoration: none;
+    color: rgb(201, 228, 83);
+    
+}
+
+a:hover{
+    color:rgb(236, 35, 35);
+}
+
+header a:hover{
+    color:rgb(49, 218, 27);
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    background-color: #DD4124;
+    width:100%;
+    color:  #25282A;
+    
+    
+}
+
+header h2{
+    position: absolute;
+    margin-top:0px;
+    margin-left:20px;
+    margin-bottom: 20px;
+
+}
+
+header{
+    height: 100px;
+    position: static;
+   
+}
+
+
+
+
+.nev{
+    position: absolute;
+    width: 100%;
+
+}
+
+.nav a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:relative;
+    left:45%;
+    top:20px;
+    text-decoration:none;
+    margin-right: 20px;
+    color: #25282A;
+    font-size: 20px;
+}
+.search{
+   
+    left: 100%;
+    text-align: right;
+    margin-right: 10px;
+    float: right;
+    width: 210px;
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: Orange;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #abbfce;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* END HEADER*/
+
+
+.para{
+    font-family:Brush Script MT ;
+    margin-top: 80px;
+    
+}
+table P{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+table{
+    margin-left: 50px;
+}
+table img{
+    
+    border-radius:5px;
+   
+}
+ul{
+    margin-top: 30px;
+}
+.more{
+    margin-left:0;
+    font-family:Copperplate ;
+    color:rgb(108, 159, 226);
+    font-size: 20px;
+}
+
+
+
+/*END BODY*/
+footer{
+    background-color:#1F2020 ;
+    width:100% ;
+    height: auto;
+    color: white;
+}
+footer h2{
+    text-align: center;
+    margin-top:10px;
+    font-family:Times;
+    font-size: 30px;
+}
+footer hr{
+    margin:3;
+    margin-bottom: 5;
+    margin-right: 100;
+    margin-left:100;
+}
+footer p{
+    text-align: center;
+
+}
+footer table{
+    color: whitesmoke;
+}
+.social{
+    text-align: right;
+}
+.AllR{
+    margin-top:30px;
+    text-align: center;
+}
